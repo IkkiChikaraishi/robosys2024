@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#SPDX-FileCopyrightText:2024 Ikki Chikaraishi
 import sys
 
 ans = 0
