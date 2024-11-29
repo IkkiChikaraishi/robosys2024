@@ -1,5 +1,5 @@
 # robosys2024
-ロボットシステム学授業用
+ロボットシステム学授業用[![test](https://github.com/IkkiChikaraishi/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/IkkiChikaraishi/robosys2024/actions/workflows/test.yml)
 plusコマンドと九九の表を表示するコマンドについて記載しています。
 
 # インストール方法
