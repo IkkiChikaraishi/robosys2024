@@ -4,6 +4,9 @@ plusコマンドと九九の表を表示するコマンドについて記載し�
 
 # インストール方法
 
+```
+$ git clone https://github.com/IkkiChikaraishi/robosys2024.git
+```
 
 # 必要なソフトウェア
 * python テスト済みバージョン3.7 ~ 3.10
