@@ -3,7 +3,7 @@
 #SPDX-Licence-Identifier:BSD-3-Clause
 import sys
 try:
-    n = int(sys.stdin.read().strip())
+    n = int(sys.stdin.read())
 
 except ValueError:
     print("エラー: 数字を入力してください。")
