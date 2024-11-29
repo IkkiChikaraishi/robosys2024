@@ -51,7 +51,6 @@ $ echo "10" | ./kadai1
 
 # 必要なソフトウェア
 * python テスト済みバージョン3.7 ~ 3.10
-* Ubuntu (20.04 LTS)
 
 # テスト環境
 * Ubuntu (20.04 LTS)
