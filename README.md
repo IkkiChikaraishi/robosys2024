@@ -1,7 +1,7 @@
 # robosys2024
 ロボットシステム学授業用       [![test](https://github.com/IkkiChikaraishi/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/IkkiChikaraishi/robosys2024/actions/workflows/test.yml)
 
-# インストール方法
+# 導入方法
 適当な場所で下記のコマンドを打って、リポジトリのクローンを行ってください。
 ```
 $ git clone https://github.com/IkkiChikaraishi/robosys2024.git
@@ -25,6 +25,9 @@ $ seq 10 | ./plus
 ```
 55
 ```
+
+# 九九の表を並べて表示するツール
+標準入力を用いて九九の段（１～９）を入力し、その数値までの九九の表を並べて表示するプログラムです。
 
 # 必要なソフトウェア
 * python テスト済みバージョン3.7 ~ 3.10
