@@ -39,16 +39,16 @@ out=$(echo 9 | ./kukunohyou)
 [[ "$out" = *"9×1=9"* ]] || ng "$LINENO"
 
 out=$(echo a | ./kukunohyou)
-[[ "$&2" = *"エラー: 数字を入力してください。"* ]] || ng "$LINENO"
+[[ "$out" = *"エラー: 数字を入力してください。"* ]] || ng "$LINENO"
 
 out=$(echo ab | ./kukunohyou)
-[[ "$&2" = *"エラー: 数字を入力してください。"* ]] || ng "$LINENO"
+[[ "$out" = *"エラー: 数字を入力してください。"* ]] || ng "$LINENO"
 
 out=$(echo 0 | ./kukunohyou)
-[[ "$&2" = *"エラー: 段の数は1から9の範囲で指定してください。"* ]] || ng "$LINENO"
+[[ "$out" = *"エラー: 段の数は1から9の範囲で指定してください。"* ]] || ng "$LINENO"
 
 out=$(echo 10 | ./kukunohyou)
-[[ "$&2" = *"エラー: 段の数は1から9の範囲で指定してください。"* ]] || ng "$LINENO"
+[[ "$out" = *"エラー: 段の数は1から9の範囲で指定してください。"* ]] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 exit $res
