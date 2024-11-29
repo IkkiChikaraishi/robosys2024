@@ -13,6 +13,13 @@ $ sudo apt update
 $ sudo apt install git
 ```
 
+# plusコマンド
+標準入力を用いて入力された数字を加算していき、合計を出すコマンドです。
+
+## plusコマンドの使用方法
+
+
+
 # 必要なソフトウェア
 * python テスト済みバージョン3.7 ~ 3.10
 * Ubuntu (20.04 LTS)
