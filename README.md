@@ -3,10 +3,12 @@
 plusコマンドと九九の表を表示するコマンドについて記載しています。
 
 # インストール方法
-
+下記のコマンドを打って、リポジトリのクローンを行ってください。
 ```
 $ git clone https://github.com/IkkiChikaraishi/robosys2024.git
+$ cd robosys2024
 ```
+
 
 # 必要なソフトウェア
 * python テスト済みバージョン3.7 ~ 3.10
