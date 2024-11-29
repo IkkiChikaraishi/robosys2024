@@ -38,5 +38,17 @@ out=$(echo 8 | ./kadai1)
 out=$(echo 9 | ./kadai1)
 [[ "$out" = *"9×1=9"* ]] || ng "$LINENO"
 
+out=$(echo a | ./kadai1)
+[[ "$out" = *"エラー: 数字を入力してください。"* ]] || ng "$LINENO"
+
+out=$(echo ab | ./kadai1)
+[[ "$out" = *"エラー: 数字を入力してください。"* ]] || ng "$LINENO"
+
+out=$(echo 0 | ./kadai1)
+[[ "$out" = *"エラー: 段の数は1から9の範囲で指定してください。"* ]] || ng "$LINENO"
+
+out=$(echo 10 | ./kadai1)
+[[ "$out" = *"エラー: 段の数は1から9の範囲で指定してください。"* ]] || ng "$LINENO"
+
 [ "${res}" = 0 ] && echo OK
 exit $res
