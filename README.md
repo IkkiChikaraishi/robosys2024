@@ -1,4 +1,4 @@
-# robosys2024 [![test](https://github.com/IkkiChikaraishi/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/IkkiChikaraishi/robosys2024/actions/workflows/test.yml)
+# robosys2024
 ロボットシステム学授業用
 plusコマンドと九九の表を表示するコマンドについて記載しています。
 
