@@ -1,5 +1,5 @@
 # robosys2024
-ロボットシステム学授業用    [![test](https://github.com/IkkiChikaraishi/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/IkkiChikaraishi/robosys2024/actions/workflows/test.yml)
+ロボットシステム学授業用       [![test](https://github.com/IkkiChikaraishi/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/IkkiChikaraishi/robosys2024/actions/workflows/test.yml)
 
 # インストール方法
 適当な場所で下記のコマンドを打って、リポジトリのクローンを行ってください。
