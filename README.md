@@ -54,6 +54,12 @@ $ echo "5" | ./kukunohyou
 # テスト環境
 * Ubuntu (20.04 LTS)
 
+# 参考資料
+* https://www.curict.com/item/ef/ef6d203.html
+* https://www.sejuku.net/blog/72383#index_id3
+* https://machine-learning-skill-up.com/knowledge/pythonsys-exit%E3%82%92%E4%BD%BF%E3%81%84%E3%81%93%E3%81%AA%E3%81%99-%E5%BC%95%E6%95%B0%E3%81%A8%E6%88%BB%E3%82%8A%E5%80%A4%E3%82%92%E7%90%86%E8%A7%A3%E3%81%97%E6%AD%A3%E5%B8%B8%E7%B5%82%E4%BA%86
+* https://qiita.com/naoya_ok/items/cb0b2368f83aa0eaec4d
+
 # 著作権・ライセンス
 * このソフトウェアパッケージは、３条項BSDライセンスの下、再頒布および使用が許可されます。
 * このパッケージのコードは、下記のスライド（CC-BY-SA 4.0 by Ryuuichi Ueda）のものを、本人の許可を得て自身の著作としたものです。
