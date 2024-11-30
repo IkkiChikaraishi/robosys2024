@@ -33,7 +33,7 @@ $ seq 10 | ./plus
 ## 使用方法
 実行するために以下のコマンドを入力してください。今回は５の段まで表示してみます。
 ```
-$ echo "5" | ./kadai1
+$ echo "5" | ./kukunohyou
 ```
 実行結果は以下のようになり、５の段までの九九の表が並んで表示されます。
 ```
@@ -45,8 +45,13 @@ $ echo "5" | ./kadai1
 ```
 もし（１～９）以外の数字を入れた場合、実行すると以下のような出力結果になります。
 ```
-$ echo "10" | ./kadai1
+$ echo "10" | ./kukunohyou
 エラー: 段の数は1から9の範囲で指定してください。
+```
+また、アルファベットや日本語などの数字以外の文字を入れた場合、実行すると以下のような出力結果になります。
+```
+$ echo a | ./kukunohyou
+エラー: 数字を入力してください。
 ```
 
 # 必要なソフトウェア
@@ -57,6 +62,6 @@ $ echo "10" | ./kadai1
 
 # 著作権・ライセンス
 * このソフトウェアパッケージは、３条項BSDライセンスの下、再頒布および使用が許可されます。
-- このパッケージのコードは、下記のスライド（CC-BY-SA 4.0 by Ryuuichi Ueda）のものを、本人の許可を得て自身の著作としたものです。
-  -  https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html#23
+* このパッケージのコードは、下記のスライド（CC-BY-SA 4.0 by Ryuuichi Ueda）のものを、本人の許可を得て自身の著作としたものです。
+  *  https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html#23
 * ⓒ 2024 Ikki Chikaraishi 
