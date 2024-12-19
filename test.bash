@@ -1,4 +1,6 @@
 #!/bin/bash 
+#SPDX-FileCopyrightText:2024 Ikki Chikaraishi
+#SPDX-Licence-Identifier:BSD-3-Clause
 
 ng () {
 	echo ${1}行目が違うよ
