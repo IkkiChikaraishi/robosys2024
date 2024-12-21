@@ -40,9 +40,9 @@ out=$(echo 8 | ./kukunohyou)
 out=$(echo 9 | ./kukunohyou)
 [[ "$out" = *"9×1=9"* ]] || ng "$LINENO"
 
-echo a | ./kukunohyou 2> /tmp/test_file.log
+echo a | ./kukunohyou 2> /tmp/error_file
 [ "$?" = 1 ] || ng "$LINENO"
-grep エラー: 数字を入力してください。/tmp/test_file.log
+grep エラー: 数字を入力してください。/tmp/error_file
 [ "$?" = 0 ] || ng "$LINENO"
 
 #out=$(echo ab | ./kukunohyou)
