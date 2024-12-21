@@ -62,8 +62,8 @@ $ echo "5" | ./kukunohyou
 * Ubuntu (20.04 LTS)
 * python 3.8.10
 * Github Action
- * ubuntu-latest
- * python Version 3.7 ~ 3.10
+  * ubuntu-latest
+  * python Version 3.7 ~ 3.10
 
 # 参考資料
 * https://www.curict.com/item/ef/ef6d203.html
