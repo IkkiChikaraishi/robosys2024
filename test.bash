@@ -42,7 +42,7 @@ out=$(echo 9 | ./kukunohyou)
 
 echo a | ./kukunohyou 2> /tmp/error_file
 [ "$?" = 1 ] || ng "$LINENO"
-grep エラー: 数字を入力してください。/tmp/error_file
+grep エラーです。数字を入力してください。/tmp/error_file
 [ "$?" = 0 ] || ng "$LINENO"
 
 #out=$(echo ab | ./kukunohyou)

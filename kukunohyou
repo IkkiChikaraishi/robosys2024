@@ -6,11 +6,11 @@ try:
     n = int(sys.stdin.read())
 
 except ValueError:
-    print("エラー: 数字を入力してください。", file=sys.stderr)
+    print("エラーです。数字を入力してください。", file=sys.stderr)
     sys.exit(1)
 
 if n < 1 or n > 9:
-    print("エラー: 段の数は1から9の範囲で指定してください。", file=sys.stderr)
+    print("エラーです。段の数は1から9の範囲で指定してください。", file=sys.stderr)
     sys.exit(1)
 
 for i in range(1, n + 1):
