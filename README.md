@@ -73,6 +73,9 @@ $ echo "5" | ./kukunohyou
 
 # 著作権・ライセンス
 * このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
-* このパッケージのコードは、下記のスライド（CC-BY-SA 4.0 by Ryuuichi Ueda）のものを、本人の許可を得て自身の著作としたものです。
-  *  [該当のスライド](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html#23)
+* このパッケージのplus、README、test.bash、test.ymlは、下記のスライド（CC-BY-SA 4.0 by Ryuuichi Ueda）のものを、本人の許可を得て自身の著作としたものです。
+  *  [第4回授業スライド](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson4.html)
+  *  [第5回授業スライド](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson5.html)
+  *  [第6回授業スライド](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson6.html)
+  *  [第7回授業スライド](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html)
 * ⓒ 2024 Ikki Chikaraishi 
