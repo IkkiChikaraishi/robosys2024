@@ -42,7 +42,7 @@ out=$(echo 9 | ./kukunohyou)
 
 echo a | ./kukunohyou 2> /tmp/test_file.log
 [ "$?" = 1 ] || ng "$LINENO"
-grep エラー: 数字を入力してください。 /tmp/test_file.log
+grep エラー: 数字を入力してください。/tmp/test_file.log
 [ "$?" = 0 ] || ng "$LINENO"
 
 #out=$(echo ab | ./kukunohyou)
@@ -54,5 +54,5 @@ grep エラー: 数字を入力してください。 /tmp/test_file.log
 #out=$(echo 10 | ./kukunohyou)
 #[[ "$out" = *"エラー: 段の数は1から9の範囲で指定してください。"* ]] || ng "$LINENO"
 
-[ "${res}" = 0 ] && echo OK
+[ "$res" = 0 ] && echo OK
 exit $res
