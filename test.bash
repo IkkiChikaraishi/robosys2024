@@ -59,11 +59,6 @@ echo 10 | ./kukunohyou 2> /tmp/error_file
 [ "$?" = 1 ] || ng "$LINENO"
 grep エラーです。段の数は1から9の範囲で指定してください。 /tmp/error_file
 [ "$?" = 0 ] || ng "$LINENO"
-#out=$(echo 0 | ./kukunohyou)
-#[[ "$out" = *"エラー: 段の数は1から9の範囲で指定してください。"* ]] || ng "$LINENO"
-
-#out=$(echo 10 | ./kukunohyou)
-#[[ "$out" = *"エラー: 段の数は1から9の範囲で指定してください。"* ]] || ng "$LINENO"
 
 [ "$res" = 0 ] && echo OK
 exit $res
