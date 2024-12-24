@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 #SPDX-FileCopyrightText:2024 Ikki Chikaraishi
 #SPDX-Licence-Identifier:BSD-3-Clause
+
 import sys
 try:
     n = int(sys.stdin.read())
