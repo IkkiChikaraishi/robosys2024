@@ -45,9 +45,20 @@ echo a | ./kukunohyou 2> /tmp/error_file
 grep エラーです。数字を入力してください。 /tmp/error_file
 [ "$?" = 0 ] || ng "$LINENO"
 
-#out=$(echo ab | ./kukunohyou)
-#[[ "$out" = *"エラー: 数字を入力してください。"* ]] || ng "$LINENO"
+echo ab | ./kukunohyou 2> /tmp/error_file
+[ "$?" = 1 ] || ng "$LINENO"
+grep エラーです。数字を入力してください。 /tmp/error_file
+[ "$?" = 0 ] || ng "$LINENO"
 
+echo 0 | ./kukunohyou 2> /tmp/error_file
+[ "$?" = 1 ] || ng "$LINENO"
+grep エラーです。段の数は1から9の範囲で指定してください。 /tmp/error_file
+[ "$?" = 0 ] || ng "$LINENO"
+
+echo 10 | ./kukunohyou 2> /tmp/error_file
+[ "$?" = 1 ] || ng "$LINENO"
+grep エラーです。段の数は1から9の範囲で指定してください。 /tmp/error_file
+[ "$?" = 0 ] || ng "$LINENO"
 #out=$(echo 0 | ./kukunohyou)
 #[[ "$out" = *"エラー: 段の数は1から9の範囲で指定してください。"* ]] || ng "$LINENO"
 
